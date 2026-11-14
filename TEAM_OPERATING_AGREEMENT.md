@@ -42,13 +42,17 @@ All percentages are calculated on **Net Project Revenue** *(Gross Client Payment
 
 ---
 
-## 3. Payout Rules (Cash-Cleared Only)
+## 3. Staged Payout & Vesting Rules (Cash-Cleared & Gate-Verified)
 
-1. **No Uncollected Payouts:** Team payouts are distributed **only after** client funds have cleared in the studio’s bank/Wise/USDC account.
-2. **Two-Tranche Payout (Matches 50/50 MSA):**
-   * **Tranche 1 (Week 1):** When the client’s **50% Deposit** clears → distribute 50% of the Builders Pool and Closer/Architect shares; move 50% of Treasury share to the studio reserve.
-   * **Tranche 2 (Day 30):** When the client’s **50% Final Balance** clears → distribute the remaining 50% of all shares.
-3. **14-Day Bug Warranty Accountability:** Fixing reproducible bugs reported during the 14-day post-launch warranty is part of the sprint’s original compensation (handled by the builders who built the affected module).
+1. **No Uncollected Payouts:** Team payouts are distributed **only after** client funds have cleared in the studio’s Wise/Bank/USDC account.
+2. **Staged Builder Vesting (`40% / 50% / 10%` — Protects Against Mid-Sprint Dropouts):**
+   While the client pays 50% upfront (Stage 0) and 50% at Staging Acceptance (Stage 3), **Active Builder payouts vest on verified engineering gates**, never on Day 1 before code is written:
+   * **Tranche 1 — 40% at Stage 2 Gate (Day 15):** Paid after the client’s 50% deposit has cleared **AND** the builder’s assigned screens, APIs, and integration tests pass Lead Architect PR review and deploy cleanly to Staging.
+   * **Tranche 2 — 50% at Stage 4 Gate (Day 30):** Paid when the client’s **Final 50% Balance** clears and production handover completes.
+   * **Tranche 3 — 10% Warranty Release (Day 44):** Paid at the close of the **14-day post-launch bug warranty** once all reproducible in-scope warranty bugs in the builder's modules are resolved.
+   * *(Founder/Closer/Architect 25% share and Studio Treasury 20% share release 50% upon Stage 0 deposit clearance and 50% upon Stage 4 final balance clearance.)*
+3. **Mid-Sprint Abandonment / Reassignment Rule:**
+   If an assigned builder becomes unresponsive for `>48 hours` during an active sprint or fails to deliver their assigned module by Stage 2, the Lead Architect may reassign the module to another builder. Any unvested payout tranches (`40%`, `50%`, `10%`) for that module transfer directly to the replacement builder who completes the work.
 
 ---
 
