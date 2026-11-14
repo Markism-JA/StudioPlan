@@ -170,7 +170,7 @@ flowchart LR
 
 ### Explicit Exclusions *(Not Included Unless Scoped Separately)*
 
-* **Native Mobile Binaries:** All MVPs ship as responsive web applications (desktop & mobile browsers); native iOS/Android App Store & Play Store builds are not included.
+* **Native Mobile & Desktop Binaries:** All MVPs ship as responsive web applications (desktop & mobile browsers / PWA-ready); native iOS/Android App Store, Play Store, and Windows/macOS/Linux desktop installers are not included.
 * **In-Place Spaghetti / AI-Codebase Patching:** If you bring an existing prototype (v0, Lovable, Cursor) with **no live user data**, we treat it purely as a visual spec and rebuild cleanly on our hardened Golden Template under Package B (zero inherited tech debt). If you have **live production users/DB data** to migrate, **Gate 0 Triage ($500)** is required before quoting migration scope.
 * **Bulk Data Entry & Legacy CSV Cleaning:** Studio seeds system defaults and 5–10 sample rows; manual entry of product catalogs or cleaning unformatted spreadsheets is excluded.
 * **Copywriting & Brand Identity:** Client supplies final brand logos, marketing copy, and domain names (or adds the UI/UX Design Pack for wireframes/design system).

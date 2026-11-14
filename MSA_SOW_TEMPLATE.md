@@ -103,7 +103,7 @@ This Agreement shall be governed by and construed in accordance with the laws of
   5. `[Screen 5 — e.g., Detail / Profile View]`
 * **Selected Add-Ons:** `[None / List add-ons + prices from Offer Catalog]`
 * **Codebase / Data Migration Basis:** `[ ] Clean-Slate Greenfield / Visual Prototype Only` | `[ ] Gate 0 Triage Completed (Attached Migration Addendum)`
-* **Explicit Exclusions:** Native iOS/Android App Store builds, in-place refactoring of un-audited legacy/AI codebases, bulk data entry / messy CSV cleaning, custom brand/logo/copywriting, formal compliance certifications (SOC 2 / HIPAA / PCI audit), and recurring cloud/API subscription fees are excluded unless itemized above.
+* **Explicit Exclusions:** Native iOS/Android App Store builds and Windows/macOS/Linux desktop installers, in-place refactoring of un-audited legacy/AI codebases, bulk data entry / messy CSV cleaning, custom brand/logo/copywriting, formal compliance certifications (SOC 2 / HIPAA / PCI audit), and recurring cloud/API subscription fees are excluded unless itemized above.
 
 ### 3. Staged Gate Schedule & Financial Summary
 
